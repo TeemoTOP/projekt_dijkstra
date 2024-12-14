@@ -49,7 +49,7 @@ projekt_dijkstra/
 1. **Klonowanie Repozytorium**
 
    ```bash
-   git clone https://github.com/twoja-nazwa-uzytkownika/projekt_dijkstra.git
+   git clone https://github.com/TeemoTOP/projekt_dijkstra.git
    cd projekt_dijkstra
 2. **Instalacja Zależności**
 ```console
