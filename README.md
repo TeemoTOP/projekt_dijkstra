@@ -6,6 +6,7 @@ Celem projektu jest implementacja algorytmu Dijkstry w celu znalezienia najkrót
 
 ## **Struktura Projektu**
 
+```
 projekt_dijkstra/
 ├── src/
 │   ├── graph.py
@@ -16,7 +17,7 @@ projekt_dijkstra/
 ├── docs/
 │   └── documentation.pdf
 └── README.md
-
+```
 ## **Zawartość Katalogów**
 
 - `src/`: Zawiera źródłowy kod projektu.
@@ -53,8 +54,8 @@ projekt_dijkstra/
 2. **Instalacja Zależności**
 ```console
 pip install -r requirements.txt
-
 ```
+
 ## **Uruchomienie Aplikacji**
 
 Przejdź do katalogu src/ i uruchom skrypt dijkstra.py:
@@ -67,7 +68,8 @@ python dijkstra.py
 ## **Uruchomienie Testów Jednostkowych**
 Przejdź do katalogu głównego projektu i uruchom testy za pomocą unittest:
 
-`cd ../n
+```
+cd ..
 python -m unittest discover -s tests
-`
+```
 
