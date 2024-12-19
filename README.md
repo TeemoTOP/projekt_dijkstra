@@ -69,7 +69,7 @@ python dijkstra.py
 ## **Uruchomienie Testów Jednostkowych**
 Przejdź do katalogu głównego projektu i uruchom testy za pomocą unittest:
 
-```
+```console
 cd ../n
 python -m unittest discover -s tests
 ```
