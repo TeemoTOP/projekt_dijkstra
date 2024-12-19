@@ -1,7 +1,7 @@
 # src/dijkstra.py
 
-from graph import Graph
-from priority_queue import PriorityQueue
+from src.graph import Graph
+from src.priority_queue import PriorityQueue
 
 def dijkstra(graph, start):
     """

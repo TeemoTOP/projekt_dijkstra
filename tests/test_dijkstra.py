@@ -1,8 +1,8 @@
 # tests/test_dijkstra.py
 
 import unittest
-from src.graph import Graph
 from src.dijkstra import dijkstra, reconstruct_path
+from src.graph import Graph
 
 class TestDijkstra(unittest.TestCase):
     def test_shortest_path_undirected(self):

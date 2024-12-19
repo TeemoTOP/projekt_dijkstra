@@ -6,6 +6,7 @@ Celem projektu jest implementacja algorytmu Dijkstry w celu znalezienia najkrót
 
 ## **Struktura Projektu**
 
+```
 projekt_dijkstra/
 ├── src/
 │   ├── graph.py
@@ -16,6 +17,7 @@ projekt_dijkstra/
 ├── docs/
 │   └── documentation.pdf
 └── README.md
+```
 
 ## **Zawartość Katalogów**
 
@@ -47,7 +49,7 @@ projekt_dijkstra/
 
 1. **Klonowanie Repozytorium**
 
-   ```bash
+   ```console
    git clone https://github.com/twoja-nazwa-uzytkownika/projekt_dijkstra.git
    cd projekt_dijkstra
 2. **Instalacja Zależności**
@@ -67,7 +69,8 @@ python dijkstra.py
 ## **Uruchomienie Testów Jednostkowych**
 Przejdź do katalogu głównego projektu i uruchom testy za pomocą unittest:
 
-`cd ../n
+```
+cd ../n
 python -m unittest discover -s tests
-`
+```
 
