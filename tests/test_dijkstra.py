@@ -1,6 +1,8 @@
 import unittest
-from src.dijkstra import dijkstra, reconstruct_path
-from src.graph import Graph
+import matplotlib.pyplot as plt
+import networkx as nx
+from dijkstra import dijkstra, reconstruct_path
+from graph import Graph
 
 class TestDijkstra(unittest.TestCase):
     def setUp(self):
