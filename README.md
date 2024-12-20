@@ -59,18 +59,16 @@ pip install -r requirements.txt
 
 ## **Uruchomienie Aplikacji**
 
-Przejdź do katalogu src/ i uruchom skrypt dijkstra.py:
+Przejdź do katalogu głównego projektu i uruchom skrypt dijkstra.py:
 
 ```console
-cd src
-python dijkstra.py
+python src/dijkstra.py
 
 ```
 ## **Uruchomienie Testów Jednostkowych**
 Przejdź do katalogu głównego projektu i uruchom testy za pomocą unittest:
 
 ```
-cd ..
 python -m unittest discover -s tests
 ```
 
