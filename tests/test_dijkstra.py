@@ -5,7 +5,7 @@ from src.graph import Graph
 class TestDijkstra(unittest.TestCase):
     def setUp(self):
         # Ustawienie domyślnego grafu do ponownego wykorzystania w wielu testach
-        print(f"Rozpoczynanie testu: {self._testMethodName}")
+        print(f"\nRozpoczynanie testu: {self._testMethodName}")
         self.graph = Graph(5)
         self.graph.add_edge(0, 1, 10, directed=False)
         self.graph.add_edge(0, 2, 3, directed=False)
@@ -14,7 +14,7 @@ class TestDijkstra(unittest.TestCase):
 
     def tearDown(self):
         # Czyszczenie grafu po każdym teście
-        print(f"Zakończenie testu: {self._testMethodName}\n")
+        print(f"Zakończenie testu: {self._testMethodName}")
         self.graph = None
 
     def test_dijkstra_distances(self):

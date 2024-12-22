@@ -111,7 +111,6 @@ def visualize_graph(graph, path, title="Graph Visualization"):
     plt.title(title)
     plt.show()
 
-
 if __name__ == "__main__":
     # Przykładowe użycie
     g = Graph(6)
